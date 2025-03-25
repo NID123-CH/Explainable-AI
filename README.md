@@ -1,24 +1,24 @@
-# Explainable AI for Heart Disease Dataset#
+# Explainable AI for Heart Disease Dataset
 
-# Overview#
+# Overview
 
 This repository provides an Explainable AI (XAI) approach to analyzing heart disease data. The goal is to build machine learning models that can predict heart disease while offering human-interpretable explanations for the predictions.
 
-Features
+# Features
 
-Machine Learning Models: Implement multiple ML models (Logistic Regression, Random Forest, XGBoost, etc.)
+## Machine Learning Models: Implement multiple ML models (Logistic Regression, Random Forest, XGBoost, etc.)
 
-Explainability Techniques: Use SHAP (SHapley Additive Explanations), LIME (Local Interpretable Model-agnostic Explanations), and Feature Importance methods
+## Explainability Techniques: Use SHAP (SHapley Additive Explanations), LIME (Local Interpretable Model-agnostic Explanations), and Feature Importance methods
 
-Data Visualization: Provide insightful plots to understand feature contributions
+## Data Visualization: Provide insightful plots to understand feature contributions
 
-Interactive Dashboard: Develop a web-based dashboard for real-time model interpretation
+## Interactive Dashboard: Develop a web-based dashboard for real-time model interpretation
 
-Dataset
+# Dataset
 
 The dataset used is the UCI Heart Disease Dataset, which contains medical records of patients with various health parameters. It can be accessed from the UCI Machine Learning Repository.
 
-Data Features
+# Data Features
 
 The dataset includes the following features:
 
@@ -34,7 +34,7 @@ Oldpeak (ST depression), Slope of ST segment, Number of Major Vessels
 
 Thalassemia, and Target (presence or absence of heart disease)
 
-Installation
+# Installation
 
 Clone the repository:
 
@@ -47,19 +47,19 @@ pip install -r requirements.txt
 
 Usage
 
-Preprocess Data:
+# Preprocess Data:
 
 python preprocess.py
 
-Train Models:
+# Train Models:
 
 python train.py
 
-Generate Explanations:
+# Generate Explanations:
 
 python explain.py
 
-Run Dashboard:
+# Run Dashboard:
 
 streamlit run dashboard.py
 
@@ -73,7 +73,7 @@ LIME
 
 LIME provides local interpretability by approximating complex models with simpler, explainable ones.
 
-Feature Importance
+# Feature Importance
 
 Feature importance scores indicate which features have the most impact on predictions.
 
@@ -81,11 +81,11 @@ Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-License
+# License
 
 This project is licensed under the MIT License.
 
-Acknowledgments
+# Acknowledgments
 
 UCI Machine Learning Repository for providing the dataset
 
